@@ -25,7 +25,7 @@ def find_the_cheese(string)# code an argument here
   i=0 
   
   while i<string.length
-    string2 = cheese_types.find {|item| }
+    string2 = cheese_types.find {|item| string.include?()}
     i+=1
   end
   string2
