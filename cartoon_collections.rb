@@ -7,7 +7,7 @@ end
 
 def summon_captain_planet(names)# code an argument here
   # Your code here
-  names.map 
+  names.map {|name| name.capitalize}
   
 end
 
