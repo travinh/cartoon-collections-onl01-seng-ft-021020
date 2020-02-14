@@ -7,9 +7,10 @@ end
 
 def summon_captain_planet(names)# code an argument here
   # Your code here
-  #names.map {|name| name.capitalize}
-  names.collect do |name|
-    name.capitalize + "!"
+  # we could use map/collect
+  names.map {|name| name.capitalize+"!"}
+  #names.collect do |name|
+  #  name.capitalize + "!"
   end
 end
 
