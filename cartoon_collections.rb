@@ -23,8 +23,10 @@ def find_the_cheese(string)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
   i=0 
+  
   while i<string.length
-    cheese_types.find {|item| item==string[i]}
+    string2 = cheese_types.find {|item| item==string[i]}
     i+=1
   end
+  string2
 end
